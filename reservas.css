@@ -1,0 +1,84 @@
+/* Estilos para o título */
+.title {
+    margin-top: 20px; /* Define a margem superior */
+}
+
+/* Estilos para o container */
+.container {
+    display: flex; /* Define o display como flexível */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Define o espaçamento entre os itens */
+    padding: 0 20px 0 20px; /* Adiciona preenchimento */
+}
+
+/* Estilos para o cartão de reserva */
+.reserva-card {
+    display: flex; /* Define o display como flexível */
+    width: 70%; /* Define a largura */
+    border-radius: 8px; /* Define o raio da borda */
+    overflow: hidden; /* Oculta o conteúdo excedente */
+    background-color: #fff; /* Define a cor de fundo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+    transition: transform 0.3s; /* Adiciona transição */
+    width: 80%; /* Define a largura */
+    padding: 10px 0 0 10px; /* Adiciona preenchimento */
+}
+
+.reserva-card:hover {
+    transform: translateY(-5px); /* Aplica uma transformação ao passar o mouse */
+}
+
+/* Estilos para a imagem do cartão de reserva */
+.reserva-image {
+    flex: 1; /* Define a proporção */
+    padding: 10px; /* Adiciona preenchimento */
+}
+
+.reserva-image img {
+    max-width: 100%; /* Define a largura máxima */
+    height: auto; /* Define a altura automática */
+    border-radius: 8px; /* Define o raio da borda */
+}
+
+/* Estilos para as informações do cartão de reserva */
+.reserva-info {
+    flex: 2; /* Define a proporção */
+    padding: 20px 0 0 20px; /* Adiciona preenchimento */
+}
+
+.reserva-info p {
+    margin: 5px 0; /* Define a margem */
+}
+
+/* Estilos para as etiquetas de informação */
+.info-label {
+    font-weight: bold; /* Define o peso da fonte */
+    margin-right: 5px; /* Define a margem direita */
+}
+
+/* Estilos para as ações do cartão de reserva */
+.reserva-actions {
+    display: flex; /* Define o display como flexível */
+    flex-direction: column; /* Define a direção como coluna */
+    justify-content: flex-start; /* Alinha as ações à esquerda */
+}
+
+.reserva-actions button {
+    margin-bottom: 6px; /* Define a margem inferior */
+    padding: 8px 10px; /* Define o preenchimento */
+    background-color: #f44336; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    font-size: 14px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Define o cursor */
+    border-radius: 4px; /* Define o raio da borda */
+    max-width: 150px; /* Define a largura máxima */
+    white-space: nowrap; /* Impede a quebra de texto */
+    overflow: hidden; /* Oculta qualquer conteúdo extra que possa vazar */
+    text-overflow: ellipsis; /* Adiciona reticências (...) se o texto estiver cortado */
+}
+
+.reserva-actions button:hover {
+    background-color: #d32f2f; /* Define a cor de fundo ao passar o mouse */
+}

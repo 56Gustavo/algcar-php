@@ -1,0 +1,150 @@
+/* Estilos para o container */
+.container {
+  display: flex; /* Define o display como flexível */
+  justify-content: space-between; /* Distribui o espaço entre os elementos */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+/* Estilos para o container do carousel */
+.carousel-container {
+  width: 55%; /* Define a largura */
+}
+
+/* Estilos para o carousel */
+.owl-carousel {
+  display: flex; /* Define o display como flexível */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilos para as imagens do carousel */
+.owl-carousel .owl-item img {
+  max-width: 100%; /* Define a largura máxima */
+  height: auto; /* Define a altura automática */
+}
+
+/* Estilos para o body */
+body {
+  background-color: #f5f5f5; /* Define a cor de fundo */
+}
+
+/* Estilos para o container do formulário */
+.form-container {
+  width: 40%; /* Define a largura */
+  background-color: #fff; /* Define a cor de fundo */
+  border-radius: 1rem; /* Define o raio da borda */
+  padding: 20px; /* Adiciona preenchimento */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Estilos para os rótulos do formulário */
+.form-container label {
+  color: #ff6219; /* Define a cor do texto */
+  font-weight: bold; /* Define o peso da fonte */
+}
+
+/* Estilos para o botão de continuar reserva */
+#continue-reservation-btn {
+  background-color: #ff6219; /* Define a cor de fundo */
+  border-color: #ff6219; /* Define a cor da borda */
+}
+
+#continue-reservation-btn:hover {
+  background-color: #da5000; /* Define a cor de fundo ao passar o mouse */
+  border-color: #da5000; /* Define a cor da borda ao passar o mouse */
+}
+
+/* Estilos para o conteúdo do modal */
+.modal-content {
+  border-radius: 15px; /* Define o raio da borda */
+}
+
+/* Estilos para o cabeçalho do modal */
+.modal-header {
+  background-color: #ff6219; /* Define a cor de fundo */
+  color: #fff; /* Define a cor do texto */
+  border-bottom: none; /* Remove a borda inferior */
+}
+
+/* Estilos para o título do modal */
+.modal-title {
+  font-weight: bold; /* Define o peso da fonte */
+}
+
+/* Estilos para o corpo do modal */
+.modal-body {
+  padding: 20px; /* Adiciona preenchimento */
+}
+
+/* Estilos para o botão de fechar do cabeçalho do modal */
+.modal-header .btn-close {
+  color: #fff; /* Define a cor do texto */
+}
+
+/* Estilos para o botão de ação primária no modal de erro */
+#errorModal .modal-footer .btn-primary {
+  background-color: #ff6219; /* Define a cor de fundo */
+  border-color: #ff6219; /* Define a cor da borda */
+}
+
+#errorModal .modal-footer .btn-primary:hover {
+  background-color: #da5000; /* Define a cor de fundo ao passar o mouse */
+  border-color: #da5000; /* Define a cor da borda ao passar o mouse */
+}
+
+/* Estilos para o cartão */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+}
+
+/* Estilos para o container */
+.container {
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilos para os campos de continuação da reserva */
+.continue-reservation-inputs {
+  width: 80%; /* Define a largura */
+  margin-bottom: 16px; /* Adiciona margem inferior */
+}
+
+/* Estilos para o formulário do cliente */
+.customer-form {
+  display: flex; /* Define o display como flexível */
+  flex-direction: column; /* Define a direção como coluna */
+  align-items: center; /* Alinha os itens verticalmente */
+}
+
+/* Estilos para os botões de navegação do cliente */
+.costumer-back-button,
+.costumer-next-button {
+  width: 80%; /* Define a largura */
+}
+
+.costumer-next-button {
+  margin-top: 16px; /* Adiciona margem superior */
+  background-color: #ff6219; /* Define a cor de fundo */
+  color: #fff; /* Define a cor do texto */
+}
+
+.costumer-next-button:hover {
+  background-color: #da5000; /* Define a cor de fundo ao passar o mouse */
+  border-color: #da5000; /* Define a cor da borda ao passar o mouse */
+  color: #fff; /* Define a cor do texto */
+}
+
+/* Estilos para o botão de fechar do cabeçalho do modal */
+.modal-header .btn-close {
+  display: none; /* Oculta o botão de fechar */
+}
+
+/* Estilos para o cabeçalho do modal de sucesso */
+#successModal .modal-header {
+  background-color: #4CAF50; /* Define a cor de fundo */
+  color: #fff; /* Define a cor do texto */
+}
+
+/* Estilos para o cabeçalho do modal de erro */
+#errorModal .modal-header {
+  background-color: #a6120d; /* Define a cor de fundo */
+  color: #fff; /* Define a cor do texto */
+}
